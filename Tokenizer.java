@@ -17,7 +17,6 @@ public class Tokenizer extends TagTokenizer {
 
 	@Override
 	protected String tokenSimpleFix(String token) {
-		/* All that will follow is github copypaste. Might want to know how to @override */
 		//I'm going to keep apostrophes because, why not
 		
 		char[] chars = token.toCharArray();
